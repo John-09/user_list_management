@@ -16,12 +16,19 @@ It features protected routes, reusable components, clean file structure, and a f
 ✅ **Protected Routes** using React Router v6 — redirects unauthenticated users  
 ✅ **Reusable Form Component** that dynamically renders fields and validations  
 ✅ **File organization**
+
 📁 Constants/ — table columns, form fields, toast utils
+
 📁 Utils/ — helper functions (e.g., filtering users)
+
 📁 Interfaces/ — TypeScript interfaces & types
+
 📁 Store/ — slices (authSlice, userSlice) + store setup with thunk
+
 📁 Pages/ — functional pages (Login, UserList, ErrorPage, Layout)
+
 📁 Components/ — shared components like ReusableForm
+
 ✅ **Responsive Design**  
 Works across large, medium, and mobile screens (flex/grid + Ant Design breakpoints)
 
@@ -32,9 +39,11 @@ User-friendly toast notifications using `react-hot-toast`
 ## ⚡ How to run locally
 
 1️⃣ Install dependencies
+
 pnpm install
 
 2️⃣ Start the app
+
 pnpm run dev
 
 🔒 Protected Routes
