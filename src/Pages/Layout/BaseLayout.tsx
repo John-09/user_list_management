@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Layout, Dropdown, Button } from "antd";
 import { LogOut } from "lucide-react";
 import { Outlet, useNavigate } from "react-router-dom";
@@ -8,6 +8,17 @@ const { Header } = Layout;
 
 const BaseLayout: React.FC = () => {
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (!token) {
+      toast.error("You need to log in first");
+      navigate("/login");
+    }
+    if (token) {
+      navigate("/users");
+    }
+  }, []);
 
   const handleLogout = () => {
     localStorage.removeItem("token");
