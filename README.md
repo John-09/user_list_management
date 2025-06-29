@@ -16,6 +16,7 @@ It features protected routes, reusable components, clean file structure, and a f
 ✅ **Protected Routes** using React Router v6 — redirects unauthenticated users  
 ✅ **Reusable Form Component** that dynamically renders fields and validations  
 ✅ **File organization**
+
 📁 Constants/ — table columns, form fields, toast utils
 
 📁 Utils/ — helper functions (e.g., filtering users)
@@ -23,8 +24,11 @@ It features protected routes, reusable components, clean file structure, and a f
 📁 Interfaces/ — TypeScript interfaces & types
 
 📁 Store/ — slices (authSlice, userSlice) + store setup with thunk
+
 📁 Pages/ — functional pages (Login, UserList, ErrorPage, Layout)
+
 📁 Components/ — shared components like ReusableForm
+
 ✅ **Responsive Design**  
 Works across large, medium, and mobile screens (flex/grid + Ant Design breakpoints)
 
