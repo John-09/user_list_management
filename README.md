@@ -39,9 +39,11 @@ User-friendly toast notifications using `react-hot-toast`
 ## ⚡ How to run locally
 
 1️⃣ Install dependencies
+
 pnpm install
 
 2️⃣ Start the app
+
 pnpm run dev
 
 🔒 Protected Routes
