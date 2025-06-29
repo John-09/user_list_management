@@ -16,6 +16,11 @@ const BaseLayout: React.FC = () => {
   };
   const menuItems = [
     {
+      key: "dashboard",
+      label: "Dashboard",
+      onClick: () => navigate("/dashboard"),
+    },
+    {
       key: "logout",
       icon: <LogOut size={16} />,
       label: "Logout",

@@ -7,6 +7,7 @@ import { Provider } from "react-redux";
 import { store } from "./Store";
 import { Toaster } from "react-hot-toast";
 import ProtectedRoute from "./Routes/ProtectedRoute";
+import { Dashboard } from "./Pages/Dashboard";
 
 function App() {
   const router = createBrowserRouter([
@@ -18,6 +19,7 @@ function App() {
         </ProtectedRoute>
       ),
       children: [
+        { path: "dashboard", element: <Dashboard /> },
         {
           path: "users",
           element: <UserList />,
