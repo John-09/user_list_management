@@ -17,8 +17,11 @@ It features protected routes, reusable components, clean file structure, and a f
 ✅ **Reusable Form Component** that dynamically renders fields and validations  
 ✅ **File organization**
 📁 Constants/ — table columns, form fields, toast utils
+
 📁 Utils/ — helper functions (e.g., filtering users)
+
 📁 Interfaces/ — TypeScript interfaces & types
+
 📁 Store/ — slices (authSlice, userSlice) + store setup with thunk
 📁 Pages/ — functional pages (Login, UserList, ErrorPage, Layout)
 📁 Components/ — shared components like ReusableForm
